@@ -1,0 +1,32 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "RC-C Solar (rc-ess)",
+        "description": "Sign in with your RC-C app account.",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid email or password.",
+      "cannot_connect": "Failed to connect to the RC-C cloud.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This account is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "RC-C Solar options",
+        "data": {
+          "update_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  }
+}

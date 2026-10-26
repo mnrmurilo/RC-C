@@ -1,0 +1,13 @@
+{
+  "domain": "rcess_solar",
+  "name": "RC-C Solar (rc-ess)",
+  "version": "1.0.0",
+  "documentation": "https://github.com/YOUR_GITHUB_USERNAME/RC-C",
+  "issue_tracker": "https://github.com/YOUR_GITHUB_USERNAME/RC-C/issues",
+  "codeowners": [],
+  "dependencies": [],
+  "requirements": [],
+  "config_flow": true,
+  "integration_type": "hub",
+  "iot_class": "cloud_polling"
+}

@@ -1,0 +1,27 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Home Assistant
+.HA_VERSION
+*.log
+
+# Packaging
+*.tgz
+*.zip
+*.b64
+
+# Secrets — never commit credentials or capture files
+secrets.yaml
+.env
+*.flows
+*.har
+*.pcap
+*.pcapng
+
+# OS / editor cruft
+.DS_Store
+._*
+.idea/
+.vscode/
